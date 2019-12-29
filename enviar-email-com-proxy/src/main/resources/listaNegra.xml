@@ -1,0 +1,10 @@
+<contatos>
+	<contato>
+		<nome>Mario</nome>
+		<email>mario@gmail.com.br</email>
+	</contato>
+	<contato>
+		<nome>Fifa</nome>
+		<email>fifa@uol.com.br</email>
+	</contato>
+</contatos>
