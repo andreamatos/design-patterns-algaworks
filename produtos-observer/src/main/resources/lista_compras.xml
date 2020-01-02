@@ -1,0 +1,17 @@
+<produtos>
+	<produto>
+		<estabelecimento>CasasBahia</estabelecimento>
+		<nome>Sabonete Líquido</nome>
+		<preco>5.39</preco>
+	</produto>
+	<produto>
+		<estabelecimento>Marabraz</estabelecimento>
+		<nome>Shampoo Anti-caspa</nome>
+		<preco>12.22</preco>
+	</produto>
+	<produto>
+		<estabelecimento>CasasBahia</estabelecimento>
+		<nome>Pasta de Dente</nome>
+		<preco>9.66</preco>
+	</produto>
+</produtos>
