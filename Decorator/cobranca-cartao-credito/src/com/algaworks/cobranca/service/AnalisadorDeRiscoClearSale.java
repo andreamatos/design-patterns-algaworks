@@ -16,10 +16,15 @@ public class AnalisadorDeRiscoClearSale implements AutorizadorCartaoCredito {
 
 	@Override
 	public void autorizar(Cliente cliente, CartaoCredito cartaoCredito, double valor) {
-		if (cliente.getCpf().startsWith("111") || cartaoCredito.getVencimento().isBefore(YearMonth.now())
-				|| valor > 500) {
+		if (cliente.getCpf().startsWith("111") || valor > 500) {
 			throw new RiscoCreditoException("Possível fraude, negando pagamento!");
 		}
+		
+		/*
+		 * if (cliente.getCpf().startsWith("111") ||
+		 * cartaoCredito.getVencimento().isBefore(YearMonth.now()) || valor > 500) {
+		 * throw new RiscoCreditoException("Possível fraude, negando pagamento!"); }
+		 */
 		
 		autorizador.autorizar(cliente, cartaoCredito, valor);
 	}

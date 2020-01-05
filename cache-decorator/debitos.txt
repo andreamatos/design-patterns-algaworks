@@ -1,0 +1,2 @@
+Cliente [nome=andre, cpf=	654] | CartaoCredito [numero=	654, nome=	andre, vencimento=2020-12, codigoSeguranca=545] | R$51.0
+Cliente [nome=asdf, cpf=	321] | CartaoCredito [numero=	321, nome=	andre, vencimento=0020-12, codigoSeguranca=12] | R$321.0

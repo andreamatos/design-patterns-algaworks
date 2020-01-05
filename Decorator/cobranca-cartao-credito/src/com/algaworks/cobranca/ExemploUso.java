@@ -38,8 +38,7 @@ public class ExemploUso {
 			int codigoSeguranca = entrada.nextInt();
 
 			Cliente cliente = new Cliente(nomeCliente, cpf);
-			CartaoCredito cartaoCredito = new CartaoCredito(cartao, nomeCartao,
-					YearMonth.of(anoVencimento, mesVencimento), codigoSeguranca);
+			CartaoCredito cartaoCredito = new CartaoCredito(cartao, nomeCartao, YearMonth.of(anoVencimento, mesVencimento), codigoSeguranca);
 			
 			AutorizadorCartaoCredito autorizador = new AnalisadorDeRiscoClearSale(new AutorizadorCielo());
 			autorizador.autorizar(cliente, cartaoCredito, valor);
